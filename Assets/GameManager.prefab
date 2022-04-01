@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1014289048809665558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1014289048809665553}
+  - component: {fileID: 1014289048809665552}
+  m_Layer: 5
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1014289048809665553
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014289048809665558}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1119.6769}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -112.93823, y: -81.46686}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1014289048809665552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014289048809665558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9db346d523384da4c87c7f9b70a0d701, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leavesText: {fileID: 0}
+  clickValueText: {fileID: 0}
+  leaves: 0
+  leavesClickValue: 0
+  leavesPerSecText: {fileID: 0}
+  clickUpgrade1Text: {fileID: 0}
+  productionUpgrade1Text: {fileID: 0}
+  productionUpgrade2Text: {fileID: 0}
+  clickUpgrade2Text: {fileID: 0}
+  leavesPerSecond: 0
+  clickUpgrade1Cost: 0
+  clickUpgrade1Level: 0
+  productionUpgrade1Cost: 0
+  productionUpgrade1Level: 0
+  clickUpgrade2Cost: 0
+  clickUpgrade2Level: 0
+  productionUpgrade2Cost: 0
+  productionUpgrade2Power: 0
+  productionUpgrade2Level: 0
+  glucoseText: {fileID: 0}
+  glucoseToGetText: {fileID: 0}
+  glucose: 0
+  glucoseToGet: 0
+  wateringCanCost: 0
+  wateringCanPower: 0
+  wateringCanLevel: 0
+  fertilizerCost: 0
+  fertilizerPower: 0
+  fertilizerLevel: 0
+  sprinklerCost: 0
+  sprinklerPower: 0
+  sprinklerLevel: 0
+  glovesCost: 0
+  glovesPower: 0
+  glovesLevel: 0
+  wateringCanText: {fileID: 0}
+  fertilizerText: {fileID: 0}
+  sprinklerText: {fileID: 0}
+  glovesText: {fileID: 0}
+  waterBar: {fileID: 0}
+  waterLevel: 0
+  waterFactor: 0
+  waterText1: {fileID: 0}
+  waterText2: {fileID: 0}
+  sunlightBar: {fileID: 0}
+  sunlightLevel: 0
+  sunlightFactor: 0
+  sunlightText1: {fileID: 0}
+  sunlightText2: {fileID: 0}
+  bugBar: {fileID: 0}
+  bugLevel: 0
+  bugFactor: 0
+  modifierFactor: 0
+  bugChance: 0
+  bugText1: {fileID: 0}
+  bugText2: {fileID: 0}
+  mainControllerGroup: {fileID: 0}
+  shopControllerGroup: {fileID: 0}
+  craftingControllerGroup: {fileID: 0}
+  inventoryControllerGroup: {fileID: 0}
+  redPotionText: {fileID: 0}
+  bluePotionText: {fileID: 0}
+  greenPotionText: {fileID: 0}
+  purplePotionText: {fileID: 0}
+  orangePotionText: {fileID: 0}
+  mysteryPotionText: {fileID: 0}
+  redInvText: {fileID: 0}
+  blueInvText: {fileID: 0}
+  greenInvText: {fileID: 0}
+  purpleInvText: {fileID: 0}
+  orangeInvText: {fileID: 0}
+  mysteryInvText: {fileID: 0}
+  redPotionAmount: 24
+  bluePotionAmount: 2
+  greenPotionAmount: 1
+  purplePotionAmount: 1
+  orangePotionAmount: 1
+  mysteryPotionAmount: 1
+  redPotionCost: 0
+  bluePotionCost: 0
+  greenPotionCost: 0
+  purplePotionCost: 0
+  orangePotionCost: 0
+  mysteryPotionCost: 0
+  potionTimer: 0
+  potionEffect: 0
+  potionText: {fileID: 0}
